@@ -1,0 +1,11 @@
+C:\Users\MARINO\Desktop\ConsoleApplication1\ConsoleApplication1\bin\Release\ConsoleApplication1.exe.config
+C:\Users\MARINO\Desktop\ConsoleApplication1\ConsoleApplication1\bin\Release\ConsoleApplication1.exe
+C:\Users\MARINO\Desktop\ConsoleApplication1\ConsoleApplication1\bin\Release\ConsoleApplication1.pdb
+C:\Users\MARINO\Desktop\ConsoleApplication1\ConsoleApplication1\obj\Release\ConsoleApplication1.exe
+C:\Users\MARINO\Desktop\ConsoleApplication1\ConsoleApplication1\obj\Release\ConsoleApplication1.pdb
+C:\Users\Marino\Desktop\PACKT\_CH01 (.NET & CLR)\DemosCH\ConsoleApplication1\ConsoleApplication1\bin\Release\ConsoleApplication1.exe.config
+C:\Users\Marino\Desktop\PACKT\_CH01 (.NET & CLR)\DemosCH\ConsoleApplication1\ConsoleApplication1\obj\Release\ConsoleApplication1.exe
+C:\Users\Marino\Desktop\PACKT\_CH01 (.NET & CLR)\DemosCH\ConsoleApplication1\ConsoleApplication1\obj\Release\ConsoleApplication1.pdb
+F:\Users\Marino\Desktop\PACKT\_CH01 (.NET & CLR)\DemosCH\ConsoleApplication1\ConsoleApplication1\bin\Release\ConsoleApplication1.exe.config
+F:\Users\Marino\Desktop\PACKT\_CH01 (.NET & CLR)\DemosCH\ConsoleApplication1\ConsoleApplication1\obj\Release\ConsoleApplication1.exe
+F:\Users\Marino\Desktop\PACKT\_CH01 (.NET & CLR)\DemosCH\ConsoleApplication1\ConsoleApplication1\obj\Release\ConsoleApplication1.pdb
