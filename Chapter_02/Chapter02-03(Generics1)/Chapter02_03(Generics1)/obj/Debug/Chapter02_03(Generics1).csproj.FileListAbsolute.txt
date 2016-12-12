@@ -1,0 +1,17 @@
+C:\Users\Marino\Desktop\Chapter02_03(Generics1)\Chapter02_03(Generics1)\bin\Debug\Chapter02_03(Generics1).exe.config
+C:\Users\Marino\Desktop\Chapter02_03(Generics1)\Chapter02_03(Generics1)\bin\Debug\Chapter02_03(Generics1).exe
+C:\Users\Marino\Desktop\Chapter02_03(Generics1)\Chapter02_03(Generics1)\bin\Debug\Chapter02_03(Generics1).pdb
+C:\Users\Marino\Desktop\Chapter02_03(Generics1)\Chapter02_03(Generics1)\obj\Debug\Chapter02_03(Generics1).csprojResolveAssemblyReference.cache
+C:\Users\Marino\Desktop\Chapter02_03(Generics1)\Chapter02_03(Generics1)\obj\Debug\Chapter02_03(Generics1).exe
+C:\Users\Marino\Desktop\Chapter02_03(Generics1)\Chapter02_03(Generics1)\obj\Debug\Chapter02_03(Generics1).pdb
+C:\Users\Marino\Desktop\PACKT\_CH02 (C# nivel 1)\DemosCH\Chapter02-03(Generics1)\Chapter02_03(Generics1)\bin\Debug\Chapter02_03(Generics1).exe.config
+C:\Users\Marino\Desktop\PACKT\_CH02 (C# nivel 1)\DemosCH\Chapter02-03(Generics1)\Chapter02_03(Generics1)\bin\Debug\Chapter02_03(Generics1).exe
+C:\Users\Marino\Desktop\PACKT\_CH02 (C# nivel 1)\DemosCH\Chapter02-03(Generics1)\Chapter02_03(Generics1)\bin\Debug\Chapter02_03(Generics1).pdb
+C:\Users\Marino\Desktop\PACKT\_CH02 (C# nivel 1)\DemosCH\Chapter02-03(Generics1)\Chapter02_03(Generics1)\obj\Debug\Chapter02_03(Generics1).exe
+C:\Users\Marino\Desktop\PACKT\_CH02 (C# nivel 1)\DemosCH\Chapter02-03(Generics1)\Chapter02_03(Generics1)\obj\Debug\Chapter02_03(Generics1).pdb
+F:\Users\Marino\Desktop\PACKT\_CH02 (C# nivel 1)\DemosCH\Chapter02-03(Generics1)\Chapter02_03(Generics1)\bin\Debug\Chapter02_03(Generics1).exe.config
+F:\Users\Marino\Desktop\PACKT\_CH02 (C# nivel 1)\DemosCH\Chapter02-03(Generics1)\Chapter02_03(Generics1)\obj\Debug\Chapter02_03(Generics1).exe
+F:\Users\Marino\Desktop\PACKT\_CH02 (C# nivel 1)\DemosCH\Chapter02-03(Generics1)\Chapter02_03(Generics1)\obj\Debug\Chapter02_03(Generics1).pdb
+F:\Users\Marino\Desktop\PACKT\_CH02 (C# nivel 1)\DemosCH\Chapter02-03(Generics1)\Chapter02_03(Generics1)\bin\Debug\Chapter02_03(Generics1).exe
+F:\Users\Marino\Desktop\PACKT\_CH02 (C# nivel 1)\DemosCH\Chapter02-03(Generics1)\Chapter02_03(Generics1)\bin\Debug\Chapter02_03(Generics1).pdb
+F:\Users\Marino\Desktop\PACKT\_CH02 (C# nivel 1)\DemosCH\Chapter02-03(Generics1)\Chapter02_03(Generics1)\obj\Debug\Chapter02_03(Generics1).csprojResolveAssemblyReference.cache

@@ -1,0 +1,14 @@
+﻿<Window x:Class="DemoReflection.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DemoReflection"
+        mc:Ignorable="d"
+        Title="Demo of Reflection" Height="261.31" Width="293.565">
+    <Grid Margin="0,0,2,1">
+        <Button x:Name="btnLaunch" Content="Launch Window" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="99" Click="btnLaunch_Click" Height="21"/>
+        <Button x:Name="btnCalculate" Content="Calculate numbers" HorizontalAlignment="Left" Margin="156,10,0,0" VerticalAlignment="Top" Width="118" Height="21" Click="btnCalculate_Click"/>
+        <ListBox x:Name="lbSelected" HorizontalAlignment="Left" Height="182" Margin="10,41,0,0" VerticalAlignment="Top" Width="264"/>
+    </Grid>
+</Window>
