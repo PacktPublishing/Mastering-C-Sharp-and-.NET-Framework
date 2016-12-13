@@ -1,0 +1,75 @@
+﻿@model IEnumerable<WebApplication1.SalesPerson>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.SalesQuota)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Bonus)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CommissionPct)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SalesYTD)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SalesLastYear)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.rowguid)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ModifiedDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SalesTerritory.Name)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.SalesQuota)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Bonus)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CommissionPct)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SalesYTD)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SalesLastYear)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.rowguid)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ModifiedDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SalesTerritory.Name)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.BusinessEntityID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.BusinessEntityID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.BusinessEntityID })
+        </td>
+    </tr>
+}
+
+</table>

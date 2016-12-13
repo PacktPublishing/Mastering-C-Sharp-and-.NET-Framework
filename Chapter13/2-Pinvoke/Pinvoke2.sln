@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pinvoke2", "Pinvoke2\Pinvoke2.csproj", "{7604FB5B-1D57-4B2C-9F34-8115E313CEAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7604FB5B-1D57-4B2C-9F34-8115E313CEAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7604FB5B-1D57-4B2C-9F34-8115E313CEAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7604FB5B-1D57-4B2C-9F34-8115E313CEAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7604FB5B-1D57-4B2C-9F34-8115E313CEAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

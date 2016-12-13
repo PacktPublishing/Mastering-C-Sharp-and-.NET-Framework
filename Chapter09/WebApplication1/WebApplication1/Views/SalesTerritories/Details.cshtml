@@ -1,0 +1,90 @@
+﻿@model WebApplication1.SalesTerritory
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>SalesTerritory</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CountryRegionCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CountryRegionCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Group)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Group)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SalesYTD)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SalesYTD)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SalesLastYear)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SalesLastYear)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CostYTD)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CostYTD)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CostLastYear)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CostLastYear)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.rowguid)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.rowguid)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ModifiedDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ModifiedDate)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.TerritoryID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

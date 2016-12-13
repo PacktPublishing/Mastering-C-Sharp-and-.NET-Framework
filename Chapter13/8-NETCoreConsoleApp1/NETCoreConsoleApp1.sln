@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8335F326-6822-4747-946E-EF986266D2E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{06D78439-C627-4B8B-9B62-0AB264D8E404}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NETCoreConsoleApp1", "src\NETCoreConsoleApp1\NETCoreConsoleApp1.xproj", "{4B64242C-1DDF-48D6-A239-1A52807AEC03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B64242C-1DDF-48D6-A239-1A52807AEC03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B64242C-1DDF-48D6-A239-1A52807AEC03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B64242C-1DDF-48D6-A239-1A52807AEC03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B64242C-1DDF-48D6-A239-1A52807AEC03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4B64242C-1DDF-48D6-A239-1A52807AEC03} = {8335F326-6822-4747-946E-EF986266D2E0}
+	EndGlobalSection
+EndGlobal

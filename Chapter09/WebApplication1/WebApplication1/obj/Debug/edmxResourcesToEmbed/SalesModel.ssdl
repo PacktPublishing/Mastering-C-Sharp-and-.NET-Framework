@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AdventureWorks2014Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="SalesPerson">
+    <Key>
+      <PropertyRef Name="BusinessEntityID" />
+    </Key>
+    <Property Name="BusinessEntityID" Type="int" Nullable="false" />
+    <Property Name="TerritoryID" Type="int" />
+    <Property Name="SalesQuota" Type="money" />
+    <Property Name="Bonus" Type="money" Nullable="false" />
+    <Property Name="CommissionPct" Type="smallmoney" Nullable="false" />
+    <Property Name="SalesYTD" Type="money" Nullable="false" />
+    <Property Name="SalesLastYear" Type="money" Nullable="false" />
+    <Property Name="rowguid" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SalesTerritory">
+    <Key>
+      <PropertyRef Name="TerritoryID" />
+    </Key>
+    <Property Name="TerritoryID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="CountryRegionCode" Type="nvarchar" MaxLength="3" Nullable="false" />
+    <Property Name="Group" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="SalesYTD" Type="money" Nullable="false" />
+    <Property Name="SalesLastYear" Type="money" Nullable="false" />
+    <Property Name="CostYTD" Type="money" Nullable="false" />
+    <Property Name="CostLastYear" Type="money" Nullable="false" />
+    <Property Name="rowguid" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_SalesPerson_SalesTerritory_TerritoryID">
+    <End Role="SalesTerritory" Type="Self.SalesTerritory" Multiplicity="0..1" />
+    <End Role="SalesPerson" Type="Self.SalesPerson" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SalesTerritory">
+        <PropertyRef Name="TerritoryID" />
+      </Principal>
+      <Dependent Role="SalesPerson">
+        <PropertyRef Name="TerritoryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="AdventureWorks2014ModelStoreContainer">
+    <EntitySet Name="SalesPerson" EntityType="Self.SalesPerson" Schema="Sales" store:Type="Tables" />
+    <EntitySet Name="SalesTerritory" EntityType="Self.SalesTerritory" Schema="Sales" store:Type="Tables" />
+    <AssociationSet Name="FK_SalesPerson_SalesTerritory_TerritoryID" Association="Self.FK_SalesPerson_SalesTerritory_TerritoryID">
+      <End Role="SalesTerritory" EntitySet="SalesTerritory" />
+      <End Role="SalesPerson" EntitySet="SalesPerson" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

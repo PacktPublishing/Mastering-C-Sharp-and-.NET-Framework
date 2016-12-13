@@ -1,0 +1,82 @@
+﻿@model WebApplication1.SalesPerson
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>SalesPerson</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.SalesQuota)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SalesQuota)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Bonus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Bonus)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CommissionPct)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CommissionPct)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SalesYTD)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SalesYTD)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SalesLastYear)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SalesLastYear)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.rowguid)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.rowguid)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ModifiedDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ModifiedDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SalesTerritory.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SalesTerritory.Name)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.BusinessEntityID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

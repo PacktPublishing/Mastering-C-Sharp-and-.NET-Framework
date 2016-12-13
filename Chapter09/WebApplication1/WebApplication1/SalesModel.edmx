@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="AdventureWorks2014Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="SalesPerson">
+          <Key>
+            <PropertyRef Name="BusinessEntityID" />
+          </Key>
+          <Property Name="BusinessEntityID" Type="int" Nullable="false" />
+          <Property Name="TerritoryID" Type="int" />
+          <Property Name="SalesQuota" Type="money" />
+          <Property Name="Bonus" Type="money" Nullable="false" />
+          <Property Name="CommissionPct" Type="smallmoney" Nullable="false" />
+          <Property Name="SalesYTD" Type="money" Nullable="false" />
+          <Property Name="SalesLastYear" Type="money" Nullable="false" />
+          <Property Name="rowguid" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="SalesTerritory">
+          <Key>
+            <PropertyRef Name="TerritoryID" />
+          </Key>
+          <Property Name="TerritoryID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="CountryRegionCode" Type="nvarchar" MaxLength="3" Nullable="false" />
+          <Property Name="Group" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="SalesYTD" Type="money" Nullable="false" />
+          <Property Name="SalesLastYear" Type="money" Nullable="false" />
+          <Property Name="CostYTD" Type="money" Nullable="false" />
+          <Property Name="CostLastYear" Type="money" Nullable="false" />
+          <Property Name="rowguid" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_SalesPerson_SalesTerritory_TerritoryID">
+          <End Role="SalesTerritory" Type="Self.SalesTerritory" Multiplicity="0..1" />
+          <End Role="SalesPerson" Type="Self.SalesPerson" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SalesTerritory">
+              <PropertyRef Name="TerritoryID" />
+            </Principal>
+            <Dependent Role="SalesPerson">
+              <PropertyRef Name="TerritoryID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="AdventureWorks2014ModelStoreContainer">
+          <EntitySet Name="SalesPerson" EntityType="Self.SalesPerson" Schema="Sales" store:Type="Tables" />
+          <EntitySet Name="SalesTerritory" EntityType="Self.SalesTerritory" Schema="Sales" store:Type="Tables" />
+          <AssociationSet Name="FK_SalesPerson_SalesTerritory_TerritoryID" Association="Self.FK_SalesPerson_SalesTerritory_TerritoryID">
+            <End Role="SalesTerritory" EntitySet="SalesTerritory" />
+            <End Role="SalesPerson" EntitySet="SalesPerson" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="AdventureWorks2014Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="SalesPerson">
+          <Key>
+            <PropertyRef Name="BusinessEntityID" />
+          </Key>
+          <Property Name="BusinessEntityID" Type="Int32" Nullable="false" />
+          <Property Name="TerritoryID" Type="Int32" />
+          <Property Name="SalesQuota" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="Bonus" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+          <Property Name="CommissionPct" Type="Decimal" Precision="10" Scale="4" Nullable="false" />
+          <Property Name="SalesYTD" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+          <Property Name="SalesLastYear" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+          <Property Name="rowguid" Type="Guid" Nullable="false" />
+          <Property Name="ModifiedDate" Type="DateTime" Nullable="false" Precision="3" />
+          <NavigationProperty Name="SalesTerritory" Relationship="Self.FK_SalesPerson_SalesTerritory_TerritoryID" FromRole="SalesPerson" ToRole="SalesTerritory" />
+        </EntityType>
+        <EntityType Name="SalesTerritory">
+          <Key>
+            <PropertyRef Name="TerritoryID" />
+          </Key>
+          <Property Name="TerritoryID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="CountryRegionCode" Type="String" MaxLength="3" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Group" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="SalesYTD" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+          <Property Name="SalesLastYear" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+          <Property Name="CostYTD" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+          <Property Name="CostLastYear" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+          <Property Name="rowguid" Type="Guid" Nullable="false" />
+          <Property Name="ModifiedDate" Type="DateTime" Nullable="false" Precision="3" />
+          <NavigationProperty Name="SalesPerson" Relationship="Self.FK_SalesPerson_SalesTerritory_TerritoryID" FromRole="SalesTerritory" ToRole="SalesPerson" />
+        </EntityType>
+        <Association Name="FK_SalesPerson_SalesTerritory_TerritoryID">
+          <End Role="SalesTerritory" Type="Self.SalesTerritory" Multiplicity="0..1" />
+          <End Role="SalesPerson" Type="Self.SalesPerson" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SalesTerritory">
+              <PropertyRef Name="TerritoryID" />
+            </Principal>
+            <Dependent Role="SalesPerson">
+              <PropertyRef Name="TerritoryID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="AdventureWorks2014Entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="SalesPerson" EntityType="Self.SalesPerson" />
+          <EntitySet Name="SalesTerritory" EntityType="Self.SalesTerritory" />
+          <AssociationSet Name="FK_SalesPerson_SalesTerritory_TerritoryID" Association="Self.FK_SalesPerson_SalesTerritory_TerritoryID">
+            <End Role="SalesTerritory" EntitySet="SalesTerritory" />
+            <End Role="SalesPerson" EntitySet="SalesPerson" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="AdventureWorks2014ModelStoreContainer" CdmEntityContainer="AdventureWorks2014Entities">
+          <EntitySetMapping Name="SalesPerson">
+            <EntityTypeMapping TypeName="AdventureWorks2014Model.SalesPerson">
+              <MappingFragment StoreEntitySet="SalesPerson">
+                <ScalarProperty Name="BusinessEntityID" ColumnName="BusinessEntityID" />
+                <ScalarProperty Name="TerritoryID" ColumnName="TerritoryID" />
+                <ScalarProperty Name="SalesQuota" ColumnName="SalesQuota" />
+                <ScalarProperty Name="Bonus" ColumnName="Bonus" />
+                <ScalarProperty Name="CommissionPct" ColumnName="CommissionPct" />
+                <ScalarProperty Name="SalesYTD" ColumnName="SalesYTD" />
+                <ScalarProperty Name="SalesLastYear" ColumnName="SalesLastYear" />
+                <ScalarProperty Name="rowguid" ColumnName="rowguid" />
+                <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SalesTerritory">
+            <EntityTypeMapping TypeName="AdventureWorks2014Model.SalesTerritory">
+              <MappingFragment StoreEntitySet="SalesTerritory">
+                <ScalarProperty Name="TerritoryID" ColumnName="TerritoryID" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="CountryRegionCode" ColumnName="CountryRegionCode" />
+                <ScalarProperty Name="Group" ColumnName="Group" />
+                <ScalarProperty Name="SalesYTD" ColumnName="SalesYTD" />
+                <ScalarProperty Name="SalesLastYear" ColumnName="SalesLastYear" />
+                <ScalarProperty Name="CostYTD" ColumnName="CostYTD" />
+                <ScalarProperty Name="CostLastYear" ColumnName="CostLastYear" />
+                <ScalarProperty Name="rowguid" ColumnName="rowguid" />
+                <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
