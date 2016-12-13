@@ -2,7 +2,7 @@
 This is the code repository for [Mastering C# and .NET Framework](https://www.packtpub.com/application-development/mastering-c-and-net-programming?utm_source=github&utm_medium=repository&utm_campaign=9781785884375), published by [Packt](https://www.packtpub.com/?utm_source=github&utm_medium=repository). It contains all the supporting project files necessary to work through the book from start to finish.
 
 ##About the Book
-Mastering C# and .NET Programming will take you in to the depths of C# 6.0 and .NET 4.6, so you can understand how the platform works when it runs your code, and how you can use this knowledge to write efficient applications. Take full advantage of the new revolution in .NET development, including open source status and cross-platform capability, and get to grips with the architectural changes of CoreCLR.
+Mastering C# and .NET Framework will take you in to the depths of C# 6.0 and .NET 4.6, so you can understand how the platform works when it runs your code, and how you can use this knowledge to write efficient applications. Take full advantage of the new revolution in .NET development, including open source status and cross-platform capability, and get to grips with the architectural changes of CoreCLR.
 
 ##Instructions and Navigation
 All of the code is organized into folders. Each folder starts with number followed by the application name. For example, Chapter02.
