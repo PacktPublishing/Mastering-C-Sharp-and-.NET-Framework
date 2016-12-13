@@ -1,7 +1,0 @@
-C:\Users\Marino\Desktop\Cajon\uwp1\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
-C:\Users\Marino\Desktop\Cajon\uwp1\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
-C:\Users\Marino\Desktop\Cajon\uwp1\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
-C:\Users\Marino\Desktop\Cajon\uwp1\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csprojResolveAssemblyReference.cache
-C:\Users\Marino\Desktop\Cajon\uwp1\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
-C:\Users\Marino\Desktop\Cajon\uwp1\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
-C:\Users\Marino\Desktop\Cajon\uwp1\ConsoleApp1\ConsoleApp1\bin\Debug\System.ValueTuple.dll

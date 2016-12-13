@@ -1,2 +1,0 @@
-C:\Users\Marino\Desktop\Chapter02-01\Chapter02-01\bin\Debug\Chapter02-01.exe.config
-F:\Users\Marino\Desktop\PACKT\_CH02 (C# nivel 1)\DemosCH\Chapter02-01(Box-UnBox)\Chapter02-01\bin\Debug\Chapter02-01.exe.config
