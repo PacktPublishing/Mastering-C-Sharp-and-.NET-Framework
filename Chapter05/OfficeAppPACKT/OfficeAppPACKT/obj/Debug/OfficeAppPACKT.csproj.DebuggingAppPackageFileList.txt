@@ -1,0 +1,2 @@
+bin\Debug\OfficeAppManifests\OfficeAppPACKTManifest.xml
+C:\Users\Marino\Desktop\PACKT\_CH05 (Reflection&Dynamic)\DemosCH\OfficeAppPACKT\OfficeAppPACKT\bin\Debug\OfficeAppPACKT.debugapp

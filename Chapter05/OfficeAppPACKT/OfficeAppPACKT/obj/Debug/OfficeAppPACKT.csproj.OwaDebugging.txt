@@ -1,0 +1,7 @@
+False
+b63b269c-09d8-4654-a8c3-9c20047eef3c268b0d9a-8c6b-4b1a-b7a3-816956b11d3a
+{f2be8eae-e33d-4e33-be81-f5a597e9a0f1}{863af070-aa77-411d-a5d6-ebde54fd7b00}
+{22eb3690-a52a-41e9-984b-8479a5090a12}
+1.0.0.0
+OfficeAppPACKT
+_layouts/15/
