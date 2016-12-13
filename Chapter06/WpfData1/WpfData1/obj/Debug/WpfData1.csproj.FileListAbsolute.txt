@@ -1,0 +1,17 @@
+C:\Users\Marino\Desktop\PACKT\_CH05 (Reflection&Dynamic)\DemosCH\WpfData1\WpfData1\bin\Debug\WpfData1.exe.config
+C:\Users\Marino\Desktop\PACKT\_CH05 (Reflection&Dynamic)\DemosCH\WpfData1\WpfData1\bin\Debug\DemoDB.mdf
+C:\Users\Marino\Desktop\PACKT\_CH05 (Reflection&Dynamic)\DemosCH\WpfData1\WpfData1\bin\Debug\DemoDB_log.ldf
+C:\Users\Marino\Desktop\PACKT\_CH05 (Reflection&Dynamic)\DemosCH\WpfData1\WpfData1\bin\Debug\WpfData1.exe
+C:\Users\Marino\Desktop\PACKT\_CH05 (Reflection&Dynamic)\DemosCH\WpfData1\WpfData1\bin\Debug\WpfData1.pdb
+C:\Users\Marino\Desktop\PACKT\_CH05 (Reflection&Dynamic)\DemosCH\WpfData1\WpfData1\obj\Debug\MainWindow.g.cs
+C:\Users\Marino\Desktop\PACKT\_CH05 (Reflection&Dynamic)\DemosCH\WpfData1\WpfData1\obj\Debug\App.g.cs
+C:\Users\Marino\Desktop\PACKT\_CH05 (Reflection&Dynamic)\DemosCH\WpfData1\WpfData1\obj\Debug\WpfData1_Content.g.cs
+C:\Users\Marino\Desktop\PACKT\_CH05 (Reflection&Dynamic)\DemosCH\WpfData1\WpfData1\obj\Debug\WpfData1_MarkupCompile.cache
+C:\Users\Marino\Desktop\PACKT\_CH05 (Reflection&Dynamic)\DemosCH\WpfData1\WpfData1\obj\Debug\WpfData1_MarkupCompile.lref
+C:\Users\Marino\Desktop\PACKT\_CH05 (Reflection&Dynamic)\DemosCH\WpfData1\WpfData1\obj\Debug\MainWindow.baml
+C:\Users\Marino\Desktop\PACKT\_CH05 (Reflection&Dynamic)\DemosCH\WpfData1\WpfData1\obj\Debug\WpfData1.g.resources
+C:\Users\Marino\Desktop\PACKT\_CH05 (Reflection&Dynamic)\DemosCH\WpfData1\WpfData1\obj\Debug\WpfData1.Properties.Resources.resources
+C:\Users\Marino\Desktop\PACKT\_CH05 (Reflection&Dynamic)\DemosCH\WpfData1\WpfData1\obj\Debug\WpfData1.csproj.GenerateResource.Cache
+C:\Users\Marino\Desktop\PACKT\_CH05 (Reflection&Dynamic)\DemosCH\WpfData1\WpfData1\obj\Debug\WpfData1.exe
+C:\Users\Marino\Desktop\PACKT\_CH05 (Reflection&Dynamic)\DemosCH\WpfData1\WpfData1\obj\Debug\WpfData1.pdb
+C:\Users\Marino\Desktop\PACKT\_CH05 (Reflection&Dynamic)\DemosCH\WpfData1\WpfData1\obj\Debug\WpfData1.csprojResolveAssemblyReference.cache

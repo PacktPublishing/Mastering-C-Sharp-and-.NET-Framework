@@ -1,0 +1,14 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfData1"
+        xmlns:DataSetAWTableAdapters="clr-namespace:WpfData1.DataSetAWTableAdapters" x:Class="WpfData1.MainWindow"
+        mc:Ignorable="d" Loaded="Window_Loaded"
+        Title="MainWindow" Height="350" Width="622">
+    <Grid Margin="0,0,2,0">
+        <Label x:Name="label" Content="List of Names in Persons.Person table in AdventureWorks Database" HorizontalAlignment="Left" Margin="10,8,0,0" VerticalAlignment="Top" Width="592" FontSize="14" FontWeight="Bold"/>
+        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top" Height="273" Width="592"/>
+    </Grid>
+</Window>
