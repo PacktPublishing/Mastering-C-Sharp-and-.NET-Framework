@@ -1,0 +1,11 @@
+c:\users\marino\Desktop\Analyzer2\Analyzer2\Analyzer2.Vsix\bin\Debug\Diagnostic.nuspec
+c:\users\marino\Desktop\Analyzer2\Analyzer2\Analyzer2.Vsix\bin\Debug\tools\install.ps1
+c:\users\marino\Desktop\Analyzer2\Analyzer2\Analyzer2.Vsix\bin\Debug\tools\uninstall.ps1
+c:\users\marino\Desktop\Analyzer2\Analyzer2\Analyzer2.Vsix\bin\Debug\Analyzer2.Vsix.vsix
+c:\users\marino\Desktop\Analyzer2\Analyzer2\Analyzer2.Vsix\bin\Debug\extension.vsixmanifest
+c:\users\marino\Desktop\Analyzer2\Analyzer2\Analyzer2.Vsix\bin\Debug\Analyzer2.dll
+c:\users\marino\Desktop\Analyzer2\Analyzer2\Analyzer2.Vsix\bin\Debug\Analyzer2.pdb
+c:\users\marino\Desktop\Analyzer2\Analyzer2\Analyzer2.Vsix\obj\Debug\Analyzer2.Vsix.csprojResolveAssemblyReference.cache
+c:\users\marino\Desktop\Analyzer2\Analyzer2\Analyzer2.Vsix\obj\Debug\Analyzer2.Vsix.dll
+c:\users\marino\Desktop\Analyzer2\Analyzer2\Analyzer2.Vsix\obj\Debug\Analyzer2.Vsix.pdb
+c:\users\marino\Desktop\Analyzer2\Analyzer2\Analyzer2.Vsix\obj\Debug\extension.vsixmanifest

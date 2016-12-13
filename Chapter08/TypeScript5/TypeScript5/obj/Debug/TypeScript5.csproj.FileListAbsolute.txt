@@ -1,0 +1,6 @@
+c:\users\marino\Desktop\TypeScript5\TypeScript5\bin\TypeScript5.dll.config
+c:\users\marino\Desktop\TypeScript5\TypeScript5\bin\TypeScript5.dll
+c:\users\marino\Desktop\TypeScript5\TypeScript5\bin\TypeScript5.pdb
+c:\users\marino\Desktop\TypeScript5\TypeScript5\obj\Debug\TypeScript5.dll
+c:\users\marino\Desktop\TypeScript5\TypeScript5\obj\Debug\TypeScript5.pdb
+C:\Users\Marino\Desktop\TypeScript5\TypeScript5\obj\Debug\TypeScript5.csprojResolveAssemblyReference.cache

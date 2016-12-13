@@ -1,0 +1,6 @@
+C:\Users\Marino\AppData\Local\Microsoft\VisualStudio\14.0Roslyn\Extensions\Marino\Analyzer2\1.0\\Analyzer2.dll
+C:\Users\Marino\AppData\Local\Microsoft\VisualStudio\14.0Roslyn\Extensions\Marino\Analyzer2\1.0\\extension.vsixmanifest
+C:\Users\Marino\AppData\Local\Microsoft\VisualStudio\14.0Roslyn\Extensions\Marino\Analyzer2\1.0\\Diagnostic.nuspec
+C:\Users\Marino\AppData\Local\Microsoft\VisualStudio\14.0Roslyn\Extensions\Marino\Analyzer2\1.0\\tools\install.ps1
+C:\Users\Marino\AppData\Local\Microsoft\VisualStudio\14.0Roslyn\Extensions\Marino\Analyzer2\1.0\\tools\uninstall.ps1
+C:\Users\Marino\AppData\Local\Microsoft\VisualStudio\14.0Roslyn\Extensions\Marino\Analyzer2\1.0\\Analyzer2.pdb

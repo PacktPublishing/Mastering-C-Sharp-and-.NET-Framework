@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <style>
+        div {
+            width:200px;
+            height: 30px;
+            margin:12px;
+            border:2px solid navy;
+        }
+    </style>
+</head>
+<body onload="init();">
+    <div id="target1"> Touch me ... </div>
+    <div id="target2" onselect="outHandler(event)"> Touch me (and out) </div>
+    <script>
+        //document.onpointerout = function (e) { e.clientX };
+        //document.onpointerout = function (e) {
+        //    alert("Mouse left at X coord: " + e.clientX);
+        //};
+        function outHandler(ev) {
+            // Process the pointerout event
+            alert(ev);
+        }
+        function init() {
+            var el = document.getElementById("target1");
+            el.onselect = outHandler;
+        }
+    </script>
+</body>
+</html>

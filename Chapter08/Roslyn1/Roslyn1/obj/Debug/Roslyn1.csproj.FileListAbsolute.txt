@@ -1,0 +1,2 @@
+c:\users\marino\Desktop\Roslyn1\Roslyn1\bin\Debug\Roslyn1.exe.config
+C:\Users\Marino\Desktop\PACKT\_CH08 (Open Source)\DemosCH\Roslyn1\Roslyn1\bin\Debug\Roslyn1.exe.config

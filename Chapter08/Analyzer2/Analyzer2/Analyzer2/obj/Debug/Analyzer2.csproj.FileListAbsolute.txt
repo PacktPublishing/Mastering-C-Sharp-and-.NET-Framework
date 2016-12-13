@@ -1,0 +1,10 @@
+c:\users\marino\Desktop\Analyzer2\Analyzer2\Analyzer2\bin\Debug\Diagnostic.nuspec
+c:\users\marino\Desktop\Analyzer2\Analyzer2\Analyzer2\bin\Debug\tools\install.ps1
+c:\users\marino\Desktop\Analyzer2\Analyzer2\Analyzer2\bin\Debug\tools\uninstall.ps1
+c:\users\marino\Desktop\Analyzer2\Analyzer2\Analyzer2\bin\Debug\Analyzer2.dll
+c:\users\marino\Desktop\Analyzer2\Analyzer2\Analyzer2\bin\Debug\Analyzer2.pdb
+c:\users\marino\Desktop\Analyzer2\Analyzer2\Analyzer2\obj\Debug\Analyzer2.csprojResolveAssemblyReference.cache
+c:\users\marino\Desktop\Analyzer2\Analyzer2\Analyzer2\obj\Debug\Analyzer2.Resources.resources
+c:\users\marino\Desktop\Analyzer2\Analyzer2\Analyzer2\obj\Debug\Analyzer2.csproj.GenerateResource.Cache
+c:\users\marino\Desktop\Analyzer2\Analyzer2\Analyzer2\obj\Debug\Analyzer2.dll
+c:\users\marino\Desktop\Analyzer2\Analyzer2\Analyzer2\obj\Debug\Analyzer2.pdb
